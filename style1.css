@@ -1,0 +1,58 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+fieldset{
+    width: 700px;
+    padding: 20px;
+    border: 2px solid rgb(13, 68, 132);
+    background-color: white;
+    position: relative;
+    margin: 50px auto;
+    height: 280px;
+}
+
+legend{
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(13, 68, 132);
+}
+
+table{
+    width: 100%;
+    border-spacing: 15px;
+}
+
+td{
+    font-size: 16px;
+}
+
+input{
+    width: 220px;
+    height: 30px;
+    padding-left: 8px;
+    border: 1px solid gray;
+    border-radius: 4px;
+}
+
+.buttons{
+    position: absolute;
+    bottom: 20px;
+    left: 250px;
+}
+
+button{
+    width: 100px;
+    height: 35px;
+    background-color: rgb(13, 68, 132);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(13, 68, 132);
+}
